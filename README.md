@@ -1,46 +1,57 @@
-# Awesome-ITSM-Integration-Servicenow-JIRA
+# ⚡ Awesome ITSM Integration (ServiceNow & Jira)
 
-## Top ITSM Integration (ServiceNow / Jira) Ecosystem
+<p align="center">
+  <img src="./assets/banner.svg" alt="Awesome ITSM Integration ServiceNow and Jira Banner" width="100%" />
+</p>
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-ITSM-Integration-Servicenow-JIRA/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-ITSM-Integration-Servicenow-JIRA?style=social" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-ITSM-Integration-Servicenow-JIRA/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-ITSM-Integration-Servicenow-JIRA?style=social" alt="GitHub forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-ITSM-Integration-Servicenow-JIRA/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+---
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
+## 🧭 Curated Guide to ITSM Integration & Ticket Automation Ecosystem
 
-*Focused on ITSM Connectors, Bidirectional Ticket Syncing, Workflow Automation, DevOps-to-ITSM Bridges & Open-Source ITSM/Issue Trackers*  
+> A curated directory of enterprise **SaaS platforms**, bidirectional connectors, workflow automation engines, and active **open-source GitHub projects** for bridging **ServiceNow**, **Jira Service Management**, and DevOps toolchains.
 
-**Last updated: November 2026**
+Synchronize incidents, changes, service requests, alerts, and CMDB configuration items in real-time between enterprise service desks, monitoring stacks, incident response platforms, and developer issue trackers.
 
+📅 **Last updated:** November 2026
 
+---
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **ITSM Integration (ServiceNow / Jira)**. These tools synchronize tickets, incidents, change requests, CMDB assets, and alert events bidirectionally between enterprise ITSM systems (like ServiceNow and Jira Service Management) and monitoring, backup, DevOps, and open-source service desk platforms.
+## 📑 Table of Contents
 
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS & Hosted Platforms](#-saas--hosted-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+  - [Top Open-Source Projects (Ranked by GitHub Stars)](#top-open-source-projects-ranked-by-github-stars)
+  - [Modular Libraries, SDKs & Webhook Bridges](#modular-libraries-sdks--webhook-bridges)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [📈 Star History](#-star-history)
+- [⚖️ Disclaimer](#️-disclaimer)
 
+---
 
-**Examples** include Druva Service Management, ServiceNow ITSM, Jira Service Management, Freshservice, Zendesk Support, Cherwell, Ivanti Neurons for ITSM, BMC Helix ITSM, SolarWinds Service Desk, SysAid, and HaloITSM (the category leaders). 
+## 📊 Sector Overview & Market Dynamics
 
+The global **IT Service Management (ITSM)** software market is estimated at approximately **$14.8 billion to $17.4 billion in 2026**, expanding toward $30B+ by the early 2030s at a compound annual growth rate (CAGR) of ~13–14%. 
 
+The sector exhibits a distinct **hybrid market structure**:
+* **Enterprise Platform Consolidation (High Concentration):** Dominated by powerhouse platform vendors—most prominently **ServiceNow**, alongside **Atlassian (Jira Service Management)** and **BMC Software**—in a near winner-take-most dynamic driven by the convergence of ITSM, Enterprise Service Management (ESM), ITAM, and autonomous AI agents.
+* **Mid-Market & SMB Agility (Moderate-to-High Fragmentation):** Thriving ecosystem of agile challengers (such as Freshservice, HaloITSM, Zendesk, and SysAid) and self-hosted open-source platforms (n8n, Plane, Zammad, GLPI) competing vigorously on rapid deployment, modular architectures, and transparent total cost of ownership (TCO).
 
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, ITSM/Jira workflow automation, monitoring-to-ticket bridges, bidirectional issue sync, and open-source ServiceNow/Jira alternatives — ideal for ITSM architects, DevOps engineers, SREs, and enterprise integration developers.
+---
 
+## 🏢 SaaS & Hosted Platforms
 
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## Sector Overview & Market Dynamics
-
-The global IT Service Management (ITSM) software market is estimated at approximately **$14.8 billion to $17.4 billion in 2026** (growing toward $30B+ by the early 2030s at ~13–14% CAGR). The sector exhibits a **hybrid market structure**: it is **highly concentrated at the enterprise tier** dominated by platform ecosystems (notably ServiceNow, followed by Atlassian and BMC in a near winner-take-most dynamic for unified IT/ESM operations), yet **moderately fragmented in the mid-market and SMB tiers** where agile challengers compete aggressively on deployment speed and cost.
-
-## SaaS/Hosted Platforms
+Enterprise cloud solutions sorted descending by **Company Valuation / Scale**:
 
 | Platform | Company Valuation / Revenue | Pricing | Free Tier Limits | Key ITSM & Integration Capabilities |
 | :--- | :--- | :--- | :--- | :--- |
@@ -55,172 +66,131 @@ The global IT Service Management (ITSM) software market is estimated at approxim
 | **[Druva Service Management](https://druva.com)** | ~$2.0B Valuation / ~$200M+ ARR | Starts at $8/user/month (SaaS/endpoint backup) or custom TB/month consumption for cloud infrastructure | No permanent free plan; offers a **30-day free trial** for cloud and SaaS workload data protection (no credit card required) | Cloud data resiliency platform with native ServiceNow and Jira integrations to automate backup failure ticketing, cyber recovery, and legal hold workflows. |
 | **[SysAid](https://sysaid.com)** | ~$30M Raised / ~$30M - $37M Revenue | Starts at $89/agent/month (Professional AI plan, billed annually) | No permanent free plan; offers a **14-day free trial** with access to core ITSM, AI Copilot, and asset management modules (no credit card required) | Service management platform featuring native Jira integration, automated alert-to-ticket creation, and IT asset synchronization. |
 
+---
 
+## 🔓 Open-Source GitHub Projects
 
-## Open-Source GitHub Projects
+### Top Open-Source Projects (Ranked by GitHub Stars)
 
+The following active open-source projects power self-hosted ITSM, bidirectional issue syncing, AIOps alert-to-incident ingestion, runbook automation, and developer portals. Each entry includes its live GitHub stargazer badge:
 
+1. **[n8n](https://github.com/n8n-io/n8n)** [![Stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers)  
+   Leading open-source workflow automation platform with native ServiceNow, Jira, Zendesk, Freshdesk, and webhook nodes for building complex bidirectional ITSM synchronization pipelines.
 
-- **[n8n](https://github.com)**  
+2. **[Plane](https://github.com/makeplane/plane)** [![Stars](https://img.shields.io/github/stars/makeplane/plane?style=social&color=white)](https://github.com/makeplane/plane/stargazers)  
+   Modern open-source software development and issue tracking alternative to Jira, featuring extensible webhooks, REST APIs, and modular workflows for engineering and IT operations teams.
 
-  Leading open-source workflow automation platform with native ServiceNow, Jira, Zendesk, Freshdesk, and webhook nodes for building bidirectional ITSM sync pipelines.
+3. **[Backstage](https://github.com/backstage/backstage)** [![Stars](https://img.shields.io/github/stars/backstage/backstage?style=social&color=white)](https://github.com/backstage/backstage/stargazers)  
+   Spotify's open-source developer portal platform with rich ecosystem plugins for surfacing Jira issue trackers, ServiceNow ITSM change approvals, and CI/CD pipelines in a unified catalog.
 
+4. **[Huly](https://github.com/hcengineering/platform)** [![Stars](https://img.shields.io/github/stars/hcengineering/platform?style=social&color=white)](https://github.com/hcengineering/platform/stargazers)  
+   All-in-one open-source workspace and ticketing environment combining Jira-style issue tracking, project planning, knowledge base, and team chat with flexible event integrations.
 
+5. **[Activepieces](https://github.com/activepieces/activepieces)** [![Stars](https://img.shields.io/github/stars/activepieces/activepieces?style=social&color=white)](https://github.com/activepieces/activepieces/stargazers)  
+   Open-source no-code/low-code business automation tool providing turnkey triggers and actions for Jira, Slack, Zendesk, Freshdesk, and enterprise webhook integrations.
 
-- **[Keep](https://github.com)**  
+6. **[NetBox](https://github.com/netbox-community/netbox)** [![Stars](https://img.shields.io/github/stars/netbox-community/netbox?style=social&color=white)](https://github.com/netbox-community/netbox/stargazers)  
+   Premier open-source IPAM and DCIM infrastructure source of truth, widely integrated with ServiceNow CMDB and Jira Service Management for asset lifecycle synchronization.
 
-  Open-source AIOps and alert management platform offering two-way integrations with ServiceNow, Jira, and monitoring tools to auto-create and close tickets.
+7. **[Windmill](https://github.com/windmill-labs/windmill)** [![Stars](https://img.shields.io/github/stars/windmill-labs/windmill?style=social&color=white)](https://github.com/windmill-labs/windmill/stargazers)  
+   High-performance open-source developer platform for turning Python, TypeScript, and SQL scripts into secure workflows, UIs, and background jobs syncing ServiceNow and Jira records.
 
+8. **[OpenProject](https://github.com/opf/openproject)** [![Stars](https://img.shields.io/github/stars/opf/openproject?style=social&color=white)](https://github.com/opf/openproject/stargazers)  
+   Enterprise open-source project and issue management software supporting agile boards, ITIL change tracking, GitHub/GitLab integration, and robust REST APIs.
 
+9. **[Keep](https://github.com/keephq/keep)** [![Stars](https://img.shields.io/github/stars/keephq/keep?style=social&color=white)](https://github.com/keephq/keep/stargazers)  
+   Open-source AIOps and alert deduplication platform providing two-way integrations with ServiceNow, Jira, and 50+ observability tools to auto-create, enrich, and resolve tickets.
 
-- **[GLPI (with ITSM & DevOps Plugins)](https://github.com)**  
+10. **[Prometheus Alertmanager](https://github.com/prometheus/alertmanager)** [![Stars](https://img.shields.io/github/stars/prometheus/alertmanager?style=social&color=white)](https://github.com/prometheus/alertmanager/stargazers)  
+    Core open-source alert routing engine that deduplicates, groups, and routes infrastructure alerts into ServiceNow, Jira Service Management, and incident channels via custom webhooks.
 
-  Flagship open-source ITSM and CMDB platform featuring REST APIs, webhooks, and community connectors for syncing tickets and assets with external trackers.
+11. **[GLPI](https://github.com/glpi-project/glpi)** [![Stars](https://img.shields.io/github/stars/glpi-project/glpi?style=social&color=white)](https://github.com/glpi-project/glpi/stargazers)  
+    Flagship open-source ITSM and CMDB platform featuring extensive REST APIs, webhooks, and plugins for synchronizing incidents, requests, and assets with external issue trackers.
 
+12. **[StackStorm](https://github.com/StackStorm/st2)** [![Stars](https://img.shields.io/github/stars/StackStorm/st2?style=social&color=white)](https://github.com/StackStorm/st2/stargazers)  
+    Event-driven automation platform ("IFTTT for Ops") equipped with specialized ServiceNow and Jira packs to automate ticket enrichment, diagnosis, and remediation workflows.
 
+13. **[Dispatch](https://github.com/Netflix/dispatch)** (by Netflix) [![Stars](https://img.shields.io/github/stars/Netflix/dispatch?style=social&color=white)](https://github.com/Netflix/dispatch/stargazers)  
+    Open-source incident management and orchestration framework that coordinates incident resolution by automatically opening Jira tickets, provisioning Slack war rooms, and managing timelines.
 
-- **[iTop (IT Operational Portal)](https://github.com)**  
+14. **[Rundeck](https://github.com/rundeck/rundeck)** [![Stars](https://img.shields.io/github/stars/rundeck/rundeck?style=social&color=white)](https://github.com/rundeck/rundeck/stargazers)  
+    Open-source runbook automation engine commonly paired with ServiceNow and Jira to execute self-service IT operations and auto-remediations upon ticket approval.
 
-  Comprehensive open-source ITIL ITSM and CMDB system with extensible webhook triggers, REST/JSON APIs, and extensions for external issue tracker synchronization.
+15. **[Zammad](https://github.com/zammad/zammad)** [![Stars](https://img.shields.io/github/stars/zammad/zammad?style=social&color=white)](https://github.com/zammad/zammad/stargazers)  
+    Modern open-source helpdesk and customer support ticketing system offering native Jira, GitLab, GitHub, and monitoring integrations (Nagios, Checkmk) out of the box.
 
+16. **[Redmine](https://github.com/redmine/redmine)** [![Stars](https://img.shields.io/github/stars/redmine/redmine?style=social&color=white)](https://github.com/redmine/redmine/stargazers)  
+    Time-tested, flexible open-source issue tracker and project management platform supported by a vast ecosystem of community plugins for ServiceNow and Jira bidirectional sync.
 
+17. **[Grafana OnCall](https://github.com/grafana/oncall)** [![Stars](https://img.shields.io/github/stars/grafana/oncall?style=social&color=white)](https://github.com/grafana/oncall/stargazers)  
+    Developer-friendly open-source on-call scheduling and paging system equipped with webhook engines to automatically dispatch and synchronize Jira and ServiceNow incident records.
 
-- **[Zammad](https://github.com)**  
+18. **[Apache DevLake](https://github.com/apache/incubator-devlake)** [![Stars](https://img.shields.io/github/stars/apache/incubator-devlake?style=social&color=white)](https://github.com/apache/incubator-devlake/stargazers)  
+    Open-source DevOps data lake that ingests, correlates, and analyzes engineering and incident data across Jira, GitHub, GitLab, and enterprise ITSM systems into DORA metrics.
 
-  Modern open-source helpdesk and ticketing platform providing native Jira, GitLab, GitHub, and Monitoring (Nagios/Icinga/Checkmk) integrations out of the box.
+19. **[Alerta](https://github.com/alerta/alerta)** [![Stars](https://img.shields.io/github/stars/alerta/alerta?style=social&color=white)](https://github.com/alerta/alerta/stargazers)  
+    Scalable open-source alert monitoring console with plug-and-play integrations for escalating monitoring events into Jira issues and ServiceNow incidents.
 
+20. **[iTop](https://github.com/combodo/itop)** [![Stars](https://img.shields.io/github/stars/combodo/itop?style=social&color=white)](https://github.com/combodo/itop/stargazers)  
+    Complete open-source ITIL service management portal and CMDB platform featuring modular REST/JSON APIs, webhook triggers, and external issue tracker connectors.
 
+21. **[Taiga](https://github.com/taigaio/taiga-back)** [![Stars](https://img.shields.io/github/stars/taigaio/taiga-back?style=social&color=white)](https://github.com/taigaio/taiga-back/stargazers)  
+    Open-source agile project management platform with customizable webhooks and REST endpoints for bridging customer support queues with developer sprints.
 
-- **[Znuny (OTRS Community Fork)](https://github.com)**  
+22. **[Znuny](https://github.com/znuny/Znuny)** [![Stars](https://img.shields.io/github/stars/znuny/Znuny?style=social&color=white)](https://github.com/znuny/Znuny/stargazers)  
+    Enterprise open-source service management fork of OTRS featuring a mature Generic Interface (REST/SOAP web services) designed for enterprise ServiceNow and Jira ticket federation.
 
-  Enterprise open-source service desk featuring a Generic Interface (REST/SOAP web services) purpose-built for bidirectional ServiceNow and Jira ticket integration.
+23. **[OTOBO](https://github.com/RotherOSS/otobo)** [![Stars](https://img.shields.io/github/stars/RotherOSS/otobo?style=social&color=white)](https://github.com/RotherOSS/otobo/stargazers)  
+    Modernized open-source OTRS-based service desk and ITIL management system with native connectors for synchronizing incidents, changes, and assets with enterprise tools.
 
+24. **[Ansible ServiceNow ITSM Collection](https://github.com/ansible-collections/servicenow.itsm)** [![Stars](https://img.shields.io/github/stars/ansible-collections/servicenow.itsm?style=social&color=white)](https://github.com/ansible-collections/servicenow.itsm/stargazers)  
+    Official Red Hat Ansible collection for automating ServiceNow ITSM configuration items (CMDB), incident creation, change request approvals, and service catalog tasks.
 
+---
 
-- **[OTOBO](https://github.com)**  
+### 🧩 Modular Libraries, SDKs & Webhook Bridges
 
-  Modernized open-source OTRS-based ITSM suite with native REST/SOAP connectors for synchronizing incidents and changes with external enterprise platforms.
+For engineers building bespoke microservices and bidirectional synchronization daemons:
 
+* 🐍 **Python Ecosystem:**
+  * [`pysnow`](https://github.com/rbw/pysnow) — Lightweight Python library for ServiceNow REST API interactions.
+  * [`atlassian-python-api`](https://github.com/atlassian-api/atlassian-python-api) — Comprehensive Python wrapper for Jira, Confluence, and Jira Service Management REST APIs.
+* ☕ **Node.js & TypeScript:**
+  * [`jira.js`](https://github.com/MrRefactoring/jira.js) — Modern TypeScript/JavaScript SDK for Jira Cloud and Server REST APIs.
+* 🔔 **Webhook Translators:**
+  * Custom Prometheus Alertmanager to ServiceNow Incident bridges (e.g., `prometheus-servicenow-webhook`).
+  * Bidirectional sync daemons bridging Jira webhooks with ServiceNow REST Scripted APIs.
 
+---
 
-- **[Plane](https://github.com)**  
+## 🤝 How to Contribute
 
-  Open-source project and issue tracking alternative to Jira featuring webhooks, REST APIs, and modular workflows for engineering and IT operations teams.
+Contributions are warmly welcomed! Help make this the most comprehensive and up-to-date guide for ITSM and Jira integration:
 
+1. 🍴 **Fork the repository** on GitHub.
+2. 📝 **Add or improve entries** in `README.md` (keep descriptions clear, factual, and include links to official resources).
+3. 🏷️ **Follow formatting standards**: If adding SaaS tools, include exact pricing and free tier/trial limits. If adding open-source projects, link to the repo and stargazers page.
+4. 🚀 **Submit a Pull Request** with a brief summary of your additions.
 
+---
 
-- **[OpenProject](https://github.com)**  
+## 💖 Support & Sponsorship
 
-  Enterprise open-source project and issue management software supporting agile boards, ITIL change tracking, GitHub/GitLab links, and API integrations.
+If you find this curated resource helpful for your architecture, DevOps pipelines, or ITSM integration projects, please consider supporting the project:
 
+- ⭐ **Star this repository** to help others discover it.
+- 🍴 **Fork and share** with your DevOps and ITSM engineering teams.
+- ☕ **Sponsor or buy a coffee**: Support ongoing maintenance through the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007).
 
+---
 
-- **[Redmine](https://github.com)**  
+## 📈 Star History
 
-  Battle-tested open-source issue tracking and project management platform widely extended with plugins for ServiceNow/Jira migration and helpdesk ticketing.
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-ITSM-Integration-Servicenow-JIRA&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-ITSM-Integration-Servicenow-JIRA&type=date&legend=top-left)
 
+---
 
+## ⚖️ Disclaimer
 
-- **[Taiga](https://github.com)**  
-
-  Open-source agile project management and issue tracking platform with webhooks and APIs for bridging support desks and development sprints.
-
-
-
-- **[Huly](https://github.com)**  
-
-  All-in-one open-source workspace combining Jira-style issue tracking, knowledge base, and team chat with extensible APIs.
-
-
-
-- **[Apache DevLake](https://github.com)**  
-
-  Open-source DevOps data lake that ingests, normalizes, and correlates data from Jira, ServiceNow/incident tools, GitHub, and Jenkins into unified metrics.
-
-
-
-- **[Prometheus Alertmanager](https://github.com)**  
-
-  Core open-source alert router capable of forwarding infrastructure alerts directly into ServiceNow, Jira Service Management, and Zammad via webhook receivers.
-
-
-
-- **[Grafana OnCall](https://github.com)**  
-
-  Open-source on-call and incident response tool featuring native outgoing webhooks and integrations to automatically open and update Jira and ServiceNow tickets.
-
-
-
-- **[Dispatch (by Netflix)](https://github.com)**  
-
-  Open-source crisis and incident management orchestration framework that automatically creates Jira tickets, Slack channels, and incident timelines.
-
-
-
-- **[Rundeck](https://github.com)**  
-
-  Open-source runbook automation platform frequently integrated with ServiceNow and Jira to execute automated remediation jobs directly from approved change tickets.
-
-
-
-- **[StackStorm](https://github.com)**  
-
-  Event-driven open-source automation platform ("IFTTT for Ops") with dedicated ServiceNow and Jira packs for auto-remediation and ticket enrichment.
-
-
-
-- **[Activepieces](https://github.com)**  
-
-  Open-source no-code/low-code automation tool providing visual triggers and actions for Jira, Zendesk, Freshdesk, Slack, and custom REST APIs.
-
-
-
-- **[Windmill](https://github.com)**  
-
-  Open-source developer platform for building script-driven Python/TypeScript workflows that sync records between ServiceNow, Jira, and internal databases.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[Python & Node.js ServiceNow/Jira SDKs (`pysnow`, `jira.js`, `atlassian-python-api`)](https://github.com)** for writing custom bidirectional ticket sync microservices and CMDB importers.
-
-- **[Alert-to-Ticket Webhook Bridges (`prometheus-servicenow-webhook`, `jira-alertmanager`)](https://github.com)** for translating monitoring alerts into structured ITSM incidents.
-
-- **[Backstage ServiceNow & Jira Plugins](https://github.com)** for surfacing live ITSM change requests, incidents, and Jira boards inside internal developer portals.
-
-- **[Ansible ServiceNow ITSM Collection (`servicenow.itsm`)](https://github.com)** for automating CMDB updates, incident creation, and change approvals inside Infrastructure-as-Code playbooks.
-
-- Many community **Docker Compose integration stacks** combining **n8n**, **Keep**, and **Zammad / GLPI** for automated, self-hosted ITSM orchestration.
-
-
-
-**Frameworks for building custom systems**: Combine **n8n** or **StackStorm** with **Keep**, **Zammad / GLPI** (or **Plane** for Jira workflows), and **Rundeck** alongside **Ansible** for automated, bidirectional ITSM integration pipelines.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
+* This repository is an independent community-curated compilation and is not affiliated with, endorsed by, or sponsored by ServiceNow, Atlassian, BMC Software, Freshworks, Zendesk, or any of their respective subsidiaries or affiliates.
+* Product names, logos, and brands are property of their respective owners.
