@@ -1,8 +1,5 @@
 # Awesome-ITSM-Integration-Servicenow-JIRA
-<<<<<<< HEAD
 
-=======
->>>>>>> b5f8fd8d40bd7f048a3b53b8c713e6622ff065f4
 ## Top ITSM Integration (ServiceNow / Jira) Ecosystem
 
 
@@ -33,77 +30,30 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saashosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global IT Service Management (ITSM) software market is estimated at approximately **$14.8 billion to $17.4 billion in 2026** (growing toward $30B+ by the early 2030s at ~13–14% CAGR). The sector exhibits a **hybrid market structure**: it is **highly concentrated at the enterprise tier** dominated by platform ecosystems (notably ServiceNow, followed by Atlassian and BMC in a near winner-take-most dynamic for unified IT/ESM operations), yet **moderately fragmented in the mid-market and SMB tiers** where agile challengers compete aggressively on deployment speed and cost.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[ServiceNow ITSM & Integration Hub](https://servicenow.com)**  
-
-  Enterprise ITSM platform featuring Integration Hub spokes for bidirectional synchronization with Jira, Slack, Azure DevOps, monitoring, and backup tools.
-
-
-
-- **[Jira Service Management (Atlassian)](https://atlassian.com)**  
-
-  Collaborative ITSM platform connecting development and IT operations with native Jira Software linking, Opsgenie alerting, and REST/webhook integrations.
-
-
-
-- **[Druva Service Management (ServiceNow & Jira Integrations)](https://druva.com)**  
-
-  Cloud data protection platform offering native ServiceNow and Jira integrations to automate backup failure ticketing, legal hold workflows, and cyber recovery tasks.
-
-
-
-- **[Freshservice (Freshworks)](https://freshworks.com)**  
-
-  Cloud-native ITSM suite featuring an App Marketplace with turnkey connectors for Jira, ServiceNow orchestration, Azure AD, and DevOps pipelines.
-
-
-
-- **[Zendesk Support](https://zendesk.com)**  
-
-  Omnichannel support and internal helpdesk platform offering deep Jira and ServiceNow apps for escalating customer tickets into engineering issues.
-
-
-
-- **[BMC Helix ITSM & Multi-Cloud Broker](https://bmc.com)**  
-
-  Enterprise service management platform providing automated ticket brokering across Jira, ServiceNow, AWS, and Salesforce environments.
-
-
-
-- **[Ivanti Neurons for ITSM (including Cherwell)](https://ivanti.com)**  
-
-  Enterprise ITSM solution offering bidirectional connectors for Jira, ServiceNow, endpoint management, and automated remediation bots.
-
-
-
-- **[SolarWinds Service Desk](https://solarwinds.com)**  
-
-  Cloud ITSM platform featuring built-in integrations for Jira issue tracking, Orion monitoring alerts, and automated change workflows.
-
-
-
-- **[SysAid](https://sysaid.com)**  
-
-  IT service management platform offering native Jira integration, automated alert-to-ticket creation, and asset synchronization.
-
-
-
-- **[HaloITSM](https://haloitsm.com)**  
-
-  Modern ITIL service desk providing two-way Jira and Azure DevOps synchronization, webhook automation, and custom API integrations.
+| Platform | Company Valuation / Revenue | Pricing | Free Tier Limits | Key ITSM & Integration Capabilities |
+| :--- | :--- | :--- | :--- | :--- |
+| **[ServiceNow ITSM & Integration Hub](https://servicenow.com)** | ~$130B Market Cap / ~$13.3B FY2025 Revenue | Starts at ~$70 - $100/fulfiller/month (Foundation tier, billed annually) | No production free tier or commercial free trial; non-production Personal Developer Instance (PDI) available free for learning (auto-reclaimed after 10 days of inactivity) | Enterprise ITSM suite with Integration Hub spokes for bidirectional synchronization with Jira, Slack, Azure DevOps, monitoring, and backup platforms. |
+| **[Jira Service Management](https://atlassian.com)** (Atlassian) | ~$38B Market Cap / ~$5.2B FY2025 Revenue | Starts at $20 - $23.80/agent/month (Standard tier) | Free forever plan available: strictly limited to **up to 3 agents**, 2 GB file storage, 100 email notifications/day, and unlimited customer requestors | Collaborative ITSM platform bridging development and operations with native Jira Software linking, Opsgenie alerting, and REST/webhook integrations. |
+| **[Zendesk Support](https://zendesk.com)** | ~$10.2B Acquisition Valuation / ~$1.7B ARR | Starts at $19/agent/month (Support Team, billed annually) | No permanent free plan; offers a **14-day free trial** with full access to Zendesk Suite Professional features (no credit card required) | Omnichannel support and helpdesk suite with dedicated Jira and ServiceNow marketplace apps for escalating customer issues into engineering tickets. |
+| **[BMC Helix ITSM](https://bmc.com)** | ~$8.3B Buyout Valuation / ~$2.3B Revenue | Starts at ~$115 - $130/user/month (estimated list pricing for named agents, annual contracts) | No self-service free tier or public trial; enterprise proof-of-concept (PoC) sandboxes available upon sales consultation | Enterprise multi-cloud service management providing automated ticket brokering across Jira, ServiceNow, AWS, and Salesforce ecosystems. |
+| **[Freshservice](https://freshworks.com)** (Freshworks) | ~$3.3B Market Cap / ~$930M ARR | Starts at $19/agent/month (Starter tier, billed annually) | No permanent free plan; provides a **14-day free trial** with enterprise-tier feature access and trial agent day passes (no credit card required) | Cloud-native ITSM suite with an App Marketplace featuring turnkey connectors for Jira, ServiceNow orchestration, Azure AD, and DevOps pipelines. |
+| **[SolarWinds Service Desk](https://solarwinds.com)** | ~$3.2B Market Cap / ~$797M Revenue | Starts at $39/technician/month (Essentials tier, billed annually) | No permanent free plan; offers a **30-day fully functional free trial** with complete access to Premier-tier AI, automation, and asset features | Cloud ITSM platform featuring built-in integrations for Jira issue tracking, Orion monitoring alerts, and automated change workflows. |
+| **[Ivanti Neurons for ITSM](https://ivanti.com)** | ~$2.0B Valuation / ~$1.2B - $1.5B Revenue | Starts at ~$25 - $59/user/year (baseline editions) to ~$95/analyst/month (advanced modules) | No self-service free tier or open trial; custom-guided enterprise demonstrations and sales-led evaluation sandboxes only | Enterprise service management offering bidirectional connectors for Jira, ServiceNow, endpoint management, and self-healing automation bots. |
+| **[HaloITSM](https://haloitsm.com)** | ~$2.0B Valuation / ~$100M ARR | Starts at £65 - £69/agent/month (approx. $49 - $99/agent/month depending on team volume) | No permanent free plan; offers an unrestricted **30-day free trial** with all ITSM modules and integrations included (no credit card required) | Modern ITIL service desk providing two-way Jira and Azure DevOps synchronization, webhook automation, asset management, and custom REST API integrations. |
+| **[Druva Service Management](https://druva.com)** | ~$2.0B Valuation / ~$200M+ ARR | Starts at $8/user/month (SaaS/endpoint backup) or custom TB/month consumption for cloud infrastructure | No permanent free plan; offers a **30-day free trial** for cloud and SaaS workload data protection (no credit card required) | Cloud data resiliency platform with native ServiceNow and Jira integrations to automate backup failure ticketing, cyber recovery, and legal hold workflows. |
+| **[SysAid](https://sysaid.com)** | ~$30M Raised / ~$30M - $37M Revenue | Starts at $89/agent/month (Professional AI plan, billed annually) | No permanent free plan; offers a **14-day free trial** with access to core ITSM, AI Copilot, and asset management modules (no credit card required) | Service management platform featuring native Jira integration, automated alert-to-ticket creation, and IT asset synchronization. |
 
 
 
