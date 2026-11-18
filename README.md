@@ -7,7 +7,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-ITSM-Integration-Servicenow-JIRA/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-ITSM-Integration-Servicenow-JIRA?style=social" alt="GitHub stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-ITSM-Integration-Servicenow-JIRA/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-ITSM-Integration-Servicenow-JIRA?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-ITSM-Integration-Servicenow-JIRA/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-ITSM-Integration-Servicenow-JIRA?style=social" alt="GitHub forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-ITSM-Integration-Servicenow-JIRA/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -30,7 +30,7 @@ Synchronize incidents, changes, service requests, alerts, and CMDB configuration
 - [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
 - [🏢 SaaS & Hosted Platforms](#-saas--hosted-platforms)
 - [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
-  - [Top Open-Source Projects (Ranked by GitHub Stars)](#top-open-source-projects-ranked-by-github-stars)
+  - [Top Open-Source Projects (Ranked by GitHub_Stars)](#top-open-source-projects-ranked-by-github-stars)
   - [Modular Libraries, SDKs & Webhook Bridges](#modular-libraries-sdks--webhook-bridges)
 - [🤝 How to Contribute](#-how-to-contribute)
 - [💖 Support & Sponsorship](#-support--sponsorship)
@@ -70,7 +70,7 @@ Enterprise cloud solutions sorted descending by **Company Valuation / Scale**:
 
 ## 🔓 Open-Source GitHub Projects
 
-### Top Open-Source Projects (Ranked by GitHub Stars)
+### Top Open-Source Projects (Ranked by GitHub_Stars)
 
 The following active open-source projects power self-hosted ITSM, bidirectional issue syncing, AIOps alert-to-incident ingestion, runbook automation, and developer portals. Each entry includes its live GitHub stargazer badge:
 
